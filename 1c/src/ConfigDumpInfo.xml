@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
+	<ConfigVersions>
+		<Metadata name="CommonTemplate.МояСтраничка" id="e766c22b-b431-4956-a05c-a9fa7e4940a7" configVersion="fa34071a77585a479d07422a2b6d906000000000"/>
+		<Metadata name="CommonTemplate.МояСтраничка.Template" id="e766c22b-b431-4956-a05c-a9fa7e4940a7.0" configVersion="bc67245ef0be9c428539dd987785511200000000"/>
+		<Metadata name="Configuration.Курс1сForWEB" id="e6781bba-8b36-472d-a344-9aaf184f6f67" configVersion="c50f3a210b419b4ea55e4b21e853c59d00000000"/>
+		<Metadata name="HTTPService.API" id="1617b880-9785-4f17-9dd9-31daa6e68b49" configVersion="e8267f484d202d4e8472eebe8f4af32800000000">
+			<Metadata name="HTTPService.API.URLTemplate.API.Method.get" id="42038b5f-9000-47b2-8420-ddbc8d0ed8e8"/>
+			<Metadata name="HTTPService.API.URLTemplate.API" id="92295e86-cf5c-4768-806e-603607c76883"/>
+			<Metadata name="HTTPService.API.URLTemplate.API.Method.post" id="c396f503-cfc7-4e51-b60e-c4369574815e"/>
+		</Metadata>
+		<Metadata name="HTTPService.API.Module" id="1617b880-9785-4f17-9dd9-31daa6e68b49.0" configVersion="a5c972a5c2bfb84ba3ee923a34cdad5b00000000"/>
+		<Metadata name="InformationRegister.РегистрСведений1" id="e79874dd-d2e2-4844-b095-e01069c2344c" configVersion="d84cd0386c737d4ab571238d6083309800000000">
+			<Metadata name="InformationRegister.РегистрСведений1.Resource.Тело" id="a977bf27-b913-48ac-b88b-ee694ef8e77a"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="ff6a9a42-1192-4d05-ad20-550b4c59aa5c" configVersion="1b83a4c5a632434c8965c9941232b6bc00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
