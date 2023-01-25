@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" CONTENT="text/html; CHARSET=utf-8">
     <title>Регистрация ошибок</title>
     <link rel="stylesheet" href="/Portal/hs/API/css">
     <link rel="shortcut icon" href="https://freesvg.org/img/molumen_red_round_error_warning_icon.png" type="image/x-icon">
@@ -24,20 +24,21 @@
             </div>
 
             <form 
-            
+            accept-charset="utf-8"
             action="http://localhost:9090/Portal/hs/API?name=Ivan&age=42" 
             method="post"
-             class="form" style="display: flex;
+             class="form" 
+             style="display: flex;
                 flex-direction: column; width: inherit;
                   justify-content: center; align-items: center;
                 border-radius: 5px;
                 background-color: #f2f2f2;
                 padding: 20px; ">  
                                 
-                <textarea type="text" id="message" name="message" rows="5" type="text" placeholder="Сообщение..." style=" width:100%;
+                <textarea type="text" id="message" name="message" rows="5" type="text"
+                style=" width:100%;
                     resize: vertical; 
                     width: 100%;
-                    padding: 12px 20px;
                     margin: 8px 0;
                     display: inline-block;
                     border: 1px solid #ccc;
@@ -58,8 +59,6 @@
                 cursor: pointer;"
                  value="Отправить айтишникам"
                 />
-
-        
 
             </form>
 
@@ -93,7 +92,6 @@
 
                 </div>
 
-
                 <div class="item"
                     style="margin-top: 4px; border: solid; border-width:  0.5px; border-color: gray;  display: flex; flex-direction: column">
                     <div class="itemContent" style="display: flex; flex-direction: row; align-items: center;">
@@ -116,21 +114,15 @@
                             repudiandae, magnam voluptatibus aspernatur iure omnis?
                         </div>
                         
-                        
-                     
-                        
-                        
-
                     </div>
 
                 </div>
-
-
-
+            
             </div>
 
-        
-
+            <a style="margin-top: 20px;" href="http://localhost:9090/Portal/hs/API/reports?id=1">Отчет 1</a>
+            <a style="margin-top: 20px;" href="http://localhost:9090/Portal/hs/API/reports?id=2">Отчет 2</a>
+ 
 
         </div>
 
